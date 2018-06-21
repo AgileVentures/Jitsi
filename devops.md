@@ -22,3 +22,9 @@ So we need to add new users to this list and then restart the ssh service if we 
 ```
 sudo service ssh reload
 ```
+
+If the user needs sudo access use the following:
+
+```
+usermod -aG sudo username
+```
